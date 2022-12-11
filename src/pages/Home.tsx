@@ -1,7 +1,7 @@
-import { CookieNotice } from "./components/CookieNotice";
-import { Footer } from "./components/Footer";
-import { IPhone } from "./components/IPhone";
-import { Logo } from "./components/Logo";
+import { CookieNotice } from "../components/CookieNotice";
+import { Footer } from "../components/Footer";
+import { IPhone } from "../components/IPhone";
+import { Logo } from "../components/Logo";
 
 import styles from "./Home.module.css";
 
