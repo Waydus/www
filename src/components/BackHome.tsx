@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import styles from "./BackHome.module.css";
 
 const SIZE = 32;
@@ -7,18 +8,18 @@ export function BackHome() {
   const [hover, setHover] = useState(false);
 
   return (
-    <a
+    <Link
       className={styles.container}
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
-      href={"/"}
+      to="/"
     >
       <ChevronLeft
         size={SIZE}
         color={hover ? "var(--color-blue)" : "var(--color-white)"}
       />
       <p>Home</p>
-    </a>
+    </Link>
   );
 }
 

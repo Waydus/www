@@ -1,18 +1,19 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import styles from "./Footer.module.css";
 
 export function Footer() {
   return (
     <footer className={styles.container}>
-      <a href="/contact" className={styles.contactLink}>
+      <Link to="/contact" className={styles.contactLink}>
         Contact
-      </a>
-      <a href="/tcs" className={styles.tcsLink}>
+      </Link>
+      <Link to="/tcs" className={styles.tcsLink}>
         Terms & Conditions
-      </a>
-      <a href="/privacy" className={styles.privacyLink}>
+      </Link>
+      <Link to="/privacy" className={styles.privacyLink}>
         Privacy Policy
-      </a>
+      </Link>
       <WaydusYear />
     </footer>
   );

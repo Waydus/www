@@ -3,7 +3,7 @@ import { useState } from "react";
 import styles from "./Logo.module.css";
 import classnames from "classnames";
 
-const SIZE = 128;
+const SIZE = 96;
 
 export function Logo() {
   const [animate, setAnimating] = useState(false);
