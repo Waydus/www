@@ -1,0 +1,36 @@
+.container {
+    margin-top: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.containerLeft {
+    display: flex;
+    justify-content: center;
+    min-width: 360px;
+}
+
+.containerRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 360px;
+}
+
+.subtitle {
+    margin: 0 0 16px 0;
+    font-size: 1.42em;
+    font-weight: 500;
+}
+
+@media (max-width: 640px) {
+    .container {
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .containerLeft {
+        margin-top: 8px;
+    }
+}
