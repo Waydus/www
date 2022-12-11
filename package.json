@@ -1,6 +1,7 @@
 {
   "name": "vite-number-conversion",
   "private": true,
+  "homepage": "https://derng.github.io/temptest/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
