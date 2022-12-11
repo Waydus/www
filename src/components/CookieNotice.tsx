@@ -1,18 +1,19 @@
 import { useEffect, useState } from "react";
-// import { setCookie, getCookie } from "cookies-next";
+import { useCookies } from "react-cookie";
 import styles from "./CookieNotice.module.css";
 
 export function CookieNotice() {
   const [show, onShow] = useState(false);
+  const [cookies, setCookie] = useCookies(["test"]);
 
   useEffect(() => {
-    // const missing = getCookie("test") == null;
-    // onShow(missing);
-  }, []);
+    const missing = cookies.test == null;
+    onShow(missing);
+  }, [cookies]);
 
   const onAcceptCookie = () => {
     onShow(false);
-    // setCookie("test", true);
+    setCookie("test", true);
   };
 
   if (!show) return null;
