@@ -21,7 +21,7 @@ export default function TermsAndConditions() {
           <p>{`Contact us from your phone by opening Waydus > Journal > Settings > Contact Us.`}</p>
 
           <br />
-          <h4>Via Email</h4>
+          <h4>General Enquiry Via Email</h4>
           <p>{`You can email us directly at support@waydus.com.`}</p>
         </div>
       </div>
