@@ -14,7 +14,7 @@ export default function Home() {
         </div>
         <div className={styles.containerRight}>
           <Logo />
-          <h4 className={styles.subtitle}>Share your wandering moments</h4>
+          <h4 className={styles.subtitle}>Share your outdoor moments</h4>
           <p>Currently in Closed Beta</p>
         </div>
       </div>

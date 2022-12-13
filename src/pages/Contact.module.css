@@ -1,13 +1,21 @@
 .container {
-    padding: 4px 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.text {
+.content {
+    max-width: 788px;
+    margin-bottom: 128px;
+}
+
+.content p {
     font-size: 16px;
 }
 
 @media (max-width: 640px) {
-    .container {
+    .content {
         padding: 4px 12px;
+        margin-bottom: 12px;
     }
 }

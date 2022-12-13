@@ -9,21 +9,22 @@ export default function TermsAndConditions() {
     <div>
       <BackHome />
       <div className={styles.container}>
-        <h3>Contact</h3>
+        <div className={styles.content}>
+          <h3>Contact Waydus</h3>
+          <p>
+            Have any app-related issues, or perhaps just a general enquiry?
+            Please get in touch!
+          </p>
+          <br />
 
-        <p className={styles.text}>
-          {` Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum. `}
-        </p>
+          <h4>Mobile App Support</h4>
+          <p>{`Contact us from your phone by opening Waydus > Journal > Settings > Contact Us.`}</p>
+
+          <br />
+          <h4>Via Email</h4>
+          <p>{`You can email us directly at support@waydus.com.`}</p>
+        </div>
       </div>
-
       <CookieNotice />
       <Footer />
     </div>
