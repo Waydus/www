@@ -8,7 +8,7 @@
 .containerLeft {
     display: flex;
     justify-content: center;
-    min-width: 360px;
+    gap: 8px;
     margin: 40px 0;
 }
 
@@ -17,7 +17,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-width: 360px;
+    margin-left: 64px;
+    text-align: center;
 }
 
 .subtitle {
@@ -35,5 +36,8 @@
         margin-top: 8px;
         flex-direction: column;
         align-items: center;
+    }
+    .containerRight {
+        margin: 0;
     }
 }
