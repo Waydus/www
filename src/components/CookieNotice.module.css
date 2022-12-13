@@ -6,6 +6,7 @@
     right: 0;
     padding: 16px;
     background: var(--color-black);
+    text-align: center;
 }
 
 .exitContainer {
