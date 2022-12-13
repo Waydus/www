@@ -1,6 +1,6 @@
 import { CookieNotice } from "../components/CookieNotice";
 import { Footer } from "../components/Footer";
-import { IPhone } from "../components/IPhone";
+import { IPhone, IPhone2 } from "../components/IPhone";
 import { Logo } from "../components/Logo";
 
 import styles from "./Home.module.css";
@@ -11,6 +11,7 @@ export default function Home() {
       <div className={styles.container}>
         <div className={styles.containerLeft}>
           <IPhone />
+          <IPhone2 />
         </div>
         <div className={styles.containerRight}>
           <Logo />
